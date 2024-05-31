@@ -1,4 +1,4 @@
-# [Stanford Starter](https://github.com/SU-SWS/sccr_subtheme)
+# [SCCR subtheme](https://github.com/SU-SWS/sccr_subtheme)
 ##### Version: 8.x-1.0-dev
 
 Changelog: [Changelog.txt](CHANGELOG.txt)
@@ -6,7 +6,7 @@ Changelog: [Changelog.txt](CHANGELOG.txt)
 Description
 ---
 
-Stanford Starter is a Stanford sub-theme that works with the Stanford Basic theme.
+SCCR subtheme is a Stanford sub-theme that works with the Stanford Basic theme.
 
 Documentation
 ---
