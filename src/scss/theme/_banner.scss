@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.su-page-banner {
+    .su-card {
+        border: none;
+    }
+
+    .su-card__contents {
+        background-color: #585755;
+        color: $su-color-white;
+      }
+}

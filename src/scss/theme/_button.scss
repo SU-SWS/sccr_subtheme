@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
-// override default button styles here and add additional button classes as needed.
-//.su-button {
-//    include button mixins here
-//  &:hover, &:focus {
-//    include button mixins here
-//  }
-//}
+// Override default button styles here and add additional button classes as needed.
+
+.su-button,
+.su-button--secondary,
+.su-button--big,
+button {
+    border-radius: 30px;
+    font-weight: $su-font-semi-bold;
+}
