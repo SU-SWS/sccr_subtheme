@@ -3,10 +3,11 @@
 .su-page-banner {
     .su-card {
         border: none;
+        background: linear-gradient(to top, #585755, #585755);
+        opacity: 0.9;
     }
 
     .su-card__contents {
-        background-color: #585755;
         color: $su-color-white;
       }
 }
