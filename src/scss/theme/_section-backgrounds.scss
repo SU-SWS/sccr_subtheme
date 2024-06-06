@@ -7,5 +7,7 @@
 // .sccr-section-pb-none
 
 .sccr-section-color--light-grey {
+    @include responsive-spacing('padding', 2);
+
     background-color: $su-color-foggy-light;
 }

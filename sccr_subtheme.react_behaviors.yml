@@ -22,15 +22,9 @@ layout_variant_info:
   config:
     section_color:
       type: select
-      title: Section background color
-      description: Choose the section background color.
+      title: Section background
+      description: Choose the section background.
       empty_option: Default
       options:
+        sccr-section-color--card: Card
         sccr-section-color--light-grey: Light Grey
-    padding_bottom:
-      type: select
-      title: Section padding bottom
-      description: Choose the section padding bottom.
-      empty_option: Default
-      options:
-        sccr-section-pb-none: None
