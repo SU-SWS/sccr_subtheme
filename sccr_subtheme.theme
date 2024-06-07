@@ -48,6 +48,6 @@ function sccr_subtheme_preprocess_page(&$vars) {
   $has_layout_field = $vars['node']->hasField('layout_selection') && $vars['node']->get('layout_selection')->getString() == 'stanford_basic_page_full';
 
   if ($has_layout_field) {
-    $vars['#attached']['library'][] = 'basic-page-full-width';
+    $vars['#attached']['library'][] = 'sccr_subtheme/basic-page-full-width';
   }
 }
