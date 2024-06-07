@@ -11,3 +11,16 @@
 
     background-color: $su-color-foggy-light;
 }
+
+.sccr-section-color--card {
+    >.layout {
+        @include responsive-spacing('padding-top', 2);
+        @include responsive-spacing('padding-bottom', 2);
+        @include responsive-spacing('margin-left', 2);
+        @include responsive-spacing('margin-right', 2);
+
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.10);
+        border: 1px solid $su-color-black-10;
+    }
+}
+
