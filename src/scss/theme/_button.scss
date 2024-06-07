@@ -3,10 +3,11 @@
 // Override default button styles here and add additional button classes as needed.
 
 .su-link,
-button,
+#back-to-top,
 .su-button,
 .su-button--big,
-.su-button--secondary {
+.su-button--secondary,
+input[type=submit] {
     border-radius: 30px;
     font-weight: $su-font-semi-bold;
 
