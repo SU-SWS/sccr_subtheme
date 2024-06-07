@@ -2,7 +2,6 @@
 
 // Section background colors and component changes
 // Section classes:
-// .sccr-section-color--default
 // .sccr-section-color--light-grey
 // .sccr-section-pb-none
 
@@ -24,8 +23,7 @@
     }
 
     >.layout {
-        @include responsive-spacing('padding-top', 2);
-        @include responsive-spacing('padding-bottom', 2);
+        @include responsive-spacing('padding', 2);
 
         box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.10);
         border: 1px solid $su-color-black-10;
