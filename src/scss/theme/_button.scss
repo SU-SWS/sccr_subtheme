@@ -2,10 +2,16 @@
 
 // Override default button styles here and add additional button classes as needed.
 
+.su-link,
+button,
 .su-button,
-.su-button--secondary,
 .su-button--big,
-button {
+.su-button--secondary {
     border-radius: 30px;
     font-weight: $su-font-semi-bold;
+
+    &.su-link--external {
+        border-radius: 30px;
+        font-weight: $su-font-semi-bold;
+    }
 }

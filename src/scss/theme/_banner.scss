@@ -9,5 +9,30 @@
 
     .su-card__contents {
         color: $su-color-white;
-      }
+
+        .su-link,
+        .su-link,
+        .su-link,
+        a {
+            color: $su-color-white;
+            font-weight: $su-font-semi-bold;
+            text-decoration: underline;
+
+            &::after {
+                background-color: $su-color-white;
+            }
+
+            &:active,
+            &:focus,
+            &:hover {
+                color: $su-color-white;
+                font-weight: $su-font-regular;
+                text-decoration: none;
+
+                &::after {
+                    background-color: $su-color-white;
+                }
+            }
+        }
+    }
 }
