@@ -17,8 +17,7 @@ const config = {
 var webpackConfig = {
   entry: {
     "main": ["./src/scss/main.scss"],
-    "ckeditor5": ["./src/scss/ckeditor5.scss"],
-    "full-width.basic-page": ["./src/scss/basic_page/full-width.scss"]
+    "ckeditor5": ["./src/scss/ckeditor5.scss"]
   },
   output: {
     path: config.distFolder,

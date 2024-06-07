@@ -91,7 +91,3 @@ allpages:
     theme:
       dist/css/main.css: { }
 
-basic-page-full-width:
-  css:
-    theme:
-      dist/css/full-width.basic-page.css: {}
