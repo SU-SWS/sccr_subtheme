@@ -12,8 +12,6 @@
 }
 
 .sccr-section-color--card {
-    @include flex-column(10 of 12);
-
     margin: 0 auto;
 
     > div {
