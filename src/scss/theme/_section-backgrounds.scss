@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+// Section background colors and component changes
+// Section classes:
+// .sccr-section-color--light-grey
+// .sccr-section-pb-none
+
+.sccr-section-color--light-grey {
+    @include responsive-spacing('padding', 2);
+
+    background-color: $su-color-foggy-light;
+}
+
+.sccr-section-color--card {
+    margin: 0 auto;
+
+    > div {
+        @include grid-media-max('lg') {
+            padding: 0 20px;
+        }
+    }
+
+    >.layout {
+        @include responsive-spacing('padding', 2);
+
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.10);
+        border: 1px solid $su-color-black-10;
+    }
+}
+
