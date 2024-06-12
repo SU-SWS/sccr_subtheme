@@ -1,0 +1,16 @@
+# Example react_behaviors plugin definitions.
+# Plugin property $defaults are defined in ReactBehaviorsPluginManager.
+layout_variant_info:
+  id: layout_style
+  label: 'Layout Paragraph Type'
+  bundles:
+    - paragraphs_type|stanford_layout
+  config:
+    section_color:
+      type: select
+      title: Section background
+      description: Choose the section background.
+      empty_option: Default
+      options:
+        sccr-section-color--card: Card
+        sccr-section-color--light-grey: Light Grey
