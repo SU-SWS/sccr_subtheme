@@ -2,7 +2,7 @@ name: SCCR Subtheme
 type: theme
 description: 'Stanford Center for Clinical Research subtheme.'
 package: Stanford
-version: 1.0
+version: 1.1.0
 core_version_requirement: ^9 || ^10
 base theme: stanford_basic
 libraries:
